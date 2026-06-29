@@ -4,7 +4,7 @@
 
 ### Pipeline de dados de detecção e análise de fraudes bancárias
 
-Construído com **Google Cloud Storage**, **BigQuery**, **Docker** e **Metabase**
+Construído com **Google Cloud Storage**, **BigQuery**, **Docker** e **Apache Superset**
 
 [![GCP](https://img.shields.io/badge/Google%20Cloud-4285F4?style=for-the-badge&logo=googlecloud&logoColor=white)](#)
 [![BigQuery](https://img.shields.io/badge/BigQuery-669DF6?style=for-the-badge&logo=googlebigquery&logoColor=white)](#)
@@ -18,7 +18,7 @@ Construído com **Google Cloud Storage**, **BigQuery**, **Docker** e **Metabase*
 
 ## 📌 Visão geral
 
-Este projeto simula o pipeline analítico de um banco para **identificar, mensurar e investigar fraudes em transações financeiras**. Os dados brutos (~1 milhão de transações) são ingeridos em um Data Lake no Google Cloud Storage, modelados em camadas dentro do BigQuery (Raw → Analytical) seguindo uma abordagem **dimensional**, e disponibilizados em um dashboard interativo via **Metabase**, rodando em container Docker.
+Este projeto simula o pipeline analítico de um banco para **identificar, mensurar e investigar fraudes em transações financeiras**. Os dados brutos (~1 milhão de transações) são ingeridos em um Data Lake no Google Cloud Storage, modelados em camadas dentro do BigQuery (Raw → Analytical) seguindo uma abordagem **dimensional**, e disponibilizados em um dashboard interativo via Apache Superset, rodando em container Docker.
 
 > 📊 Dataset original: [Bank Transaction Fraud Detection Dataset (Kaggle)](https://www.kaggle.com/datasets/nafiulislam490/bank-transaction-fraud-detection-dataset)
 
